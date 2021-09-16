@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e86e35a2-781d-4fc2-a4f9-bdebdf534102" extendedConfigurationObject="7795348b-2f52-47f7-bf00-e11e5e795a43">
+  <name>ПодключаемыеОтчетыИОбработки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <content>644bbcdb-d109-4790-9561-63666c5c0db1</content>
+</mdclass:Subsystem>

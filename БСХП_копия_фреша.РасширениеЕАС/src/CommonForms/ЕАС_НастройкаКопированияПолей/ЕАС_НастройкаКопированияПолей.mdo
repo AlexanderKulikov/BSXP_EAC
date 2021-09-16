@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2b4849f-843f-4cc4-9122-40f75b4b973d">
+  <name>ЕАС_НастройкаКопированияПолей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка копирования полей ЕАС</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

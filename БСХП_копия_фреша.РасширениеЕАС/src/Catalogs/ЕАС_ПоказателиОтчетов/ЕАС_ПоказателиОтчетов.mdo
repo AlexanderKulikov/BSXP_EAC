@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="736d1420-32cd-4c89-8829-28e882448afb">
+  <producedTypes>
+    <objectType typeId="52a89062-a7c8-4820-bd81-4d81a9a72cfa" valueTypeId="e929634f-6b0a-4882-81cf-6c907c652a49"/>
+    <refType typeId="539aa171-59c4-4d17-8077-c73c4f61bcac" valueTypeId="af1fe0b6-698b-4389-9174-4f737f9dfe24"/>
+    <selectionType typeId="dd9bbf09-454e-4f07-a43b-d6d7b57d0ccd" valueTypeId="ab1622af-1e9e-4141-8001-b438e94b1aab"/>
+    <listType typeId="1d1b492d-3d37-42fc-9759-2777b164e599" valueTypeId="e9fddd15-e0ef-4fd6-b095-44993410e598"/>
+    <managerType typeId="6e8a59b9-2910-4f3d-ad14-64fede0c6d76" valueTypeId="1f37580e-ad2a-47de-b55b-4c61a8f6c488"/>
+  </producedTypes>
+  <name>ЕАС_ПоказателиОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели отчетов (ЕАС)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕАС_ПоказателиОтчетов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕАС_ПоказателиОтчетов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Показатель отчета (ЕАС)</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ЕАС_ШаблоныОтчетов</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЕАС_ПоказателиОтчетов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ЕАС_ПоказателиОтчетов.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ЕАС_ПоказателиОтчетов.Form.ФормаСписка</defaultListForm>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="03e550a1-0b1b-4053-ad63-255aecdf2f69">
+    <name>ОбластьДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область данных</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b50a7ddf-add9-4f65-b86c-b9a196a999e7">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование в отчете (если отличается)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6a765401-7b3a-4064-8eb0-8c9cd8913e2a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ea4c50b8-23ac-42d3-a7d9-fb5f2758cc9a">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="73693ace-acc1-4193-92c0-3a50a57081cd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

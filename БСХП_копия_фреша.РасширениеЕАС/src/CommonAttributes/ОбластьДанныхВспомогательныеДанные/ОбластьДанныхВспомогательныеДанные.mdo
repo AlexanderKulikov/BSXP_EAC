@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cac135b4-f542-4fb8-a050-0b961f485986" extendedConfigurationObject="530a3164-4ef1-4b3b-8269-13764ef4bf15">
+  <name>ОбластьДанныхВспомогательныеДанные</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CommonAttributeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <type>Checked</type>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Number</type>
+      </types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </typeExtension>
+    <autoUse>Checked</autoUse>
+    <dataSeparation>Checked</dataSeparation>
+    <separatedDataUse>Checked</separatedDataUse>
+  </extension>
+  <type/>
+  <autoUse>DontUse</autoUse>
+  <separatedDataUse>IndependentlyAndSimultaneously</separatedDataUse>
+</mdclass:CommonAttribute>

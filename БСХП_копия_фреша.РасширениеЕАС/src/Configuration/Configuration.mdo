@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="403e1544-c4e9-4cc0-a265-eb59c4e9b15f">
+  <name>РасширениеЕАС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширение ЕАС</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6ca6eb0e-bada-43c0-a10c-e1d19e11798b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9133ba19-adbc-465c-bb81-707babe606af"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7eea0278-290c-4159-b99b-12053b4ac370"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="9d1845f3-f474-44bd-b6ff-3ce7e1fa337d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="219a4eaf-abea-49b3-82d9-386b543ab104"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="9845d5af-7365-4ee3-84bb-31d71853fd9b"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="8b61a8fc-d889-46a8-85de-8ec2b3cad616"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ЕАС_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ЕАС_ОсновнаяРоль</defaultRoles>
+  <version>1.0.0.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="b172aae5-e14f-4efd-9dad-44d6889e369c" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
+  <subsystems>Subsystem.ЕдинаяАвтоматизированнаяСистема</subsystems>
+  <styleItems>StyleItem.БыстрыеОтборыФонГруппы</styleItems>
+  <commonPictures>CommonPicture.Идея</commonPictures>
+  <commonPictures>CommonPicture.Сумма</commonPictures>
+  <roles>Role.ЕАС_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.УправлениеПечатьюПереопределяемый</commonModules>
+  <commonModules>CommonModule.ЕАС_ОбщегоНазначенияКопируемый</commonModules>
+  <commonModules>CommonModule.ЕАС_ОбщегоНазначенияВызовСервераКопируемый</commonModules>
+  <commonModules>CommonModule.ЕАС_ОбщегоНазначенияСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.ЕАС_ОбменВызовСервераКопируемый</commonModules>
+  <commonModules>CommonModule.ЕАС_ОбщегоНазначенияЛокальный</commonModules>
+  <commonModules>CommonModule.ЕАС_ОбменСерверПовтИспКопируемый</commonModules>
+  <commonModules>CommonModule.ЕАС_ОбработкаШаблоновКопируемый</commonModules>
+  <commonModules>CommonModule.ЕАС_ОбработкаШаблоновКлиентСерверКопируемый</commonModules>
+  <commonModules>CommonModule.ЕАС_ОбластиДанныхКопируемый</commonModules>
+  <commonModules>CommonModule.ЕАС_ПараметрыЗаполненияСервер</commonModules>
+  <commonModules>CommonModule.ЕАС_ПротоколированиеКопируемый</commonModules>
+  <commonModules>CommonModule.ЕАС_ЗаполнениеОтчетов</commonModules>
+  <commonAttributes>CommonAttribute.ОбластьДанныхВспомогательныеДанные</commonAttributes>
+  <commonAttributes>CommonAttribute.ОбластьДанныхОсновныеДанные</commonAttributes>
+  <exchangePlans>ExchangePlan.ОбменЕАСБухгалтерия</exchangePlans>
+  <xDTOPackages>XDTOPackage.ЕАС_Message</xDTOPackages>
+  <httpServices>HTTPService.ЕАС_Сервис</httpServices>
+  <commonForms>CommonForm.ЕАС_ФормаРедактированияТекста</commonForms>
+  <commonForms>CommonForm.ЕАС_НастройкаКопированияПолей</commonForms>
+  <catalogs>Catalog.ЕАС_ШаблоныОтчетов</catalogs>
+  <catalogs>Catalog.ЕАС_ПоказателиОтчетов</catalogs>
+  <catalogs>Catalog.ЕАС_ПоляФормШаблонов</catalogs>
+  <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ЕАС_ОтчетыИнтеграции</documents>
+  <enums>Enum.ЕАС_ВидыПрисоединенныхДанных</enums>
+  <enums>Enum.ЕАС_ВидыИсточниковДанных</enums>
+  <enums>Enum.ЕАС_ВидыПротоколовОбмена</enums>
+  <dataProcessors>DataProcessor.схЗагрузкаОтчетностиАПК</dataProcessors>
+  <dataProcessors>DataProcessor.ЕАС_РегистрацияИзмененийДляОбменаДанными</dataProcessors>
+  <informationRegisters>InformationRegister.ЕАС_ПрисоединенныеДанные</informationRegisters>
+  <informationRegisters>InformationRegister.ЕАС_СоответствияОбъектовИнформационныхБаз</informationRegisters>
+  <informationRegisters>InformationRegister.ЕАС_ПротоколыОбмена</informationRegisters>
+</mdclass:Configuration>

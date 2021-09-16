@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10223e23-5acf-4166-b593-75419a1f01c1">
+  <producedTypes>
+    <selectionType typeId="e7d526b9-4dd5-4174-abaf-414617cf230b" valueTypeId="f63ad355-51e6-4c64-a668-a10c93d7632a"/>
+    <listType typeId="76a5f27d-8c10-4117-8dcf-51179b8a1397" valueTypeId="671ae87b-d9d1-4eaf-9709-10eae5005bfe"/>
+    <managerType typeId="354cdde0-b8cd-4d99-9441-3eba37c15c50" valueTypeId="2bf038ac-95c7-469f-8bdc-75d578a0ae6b"/>
+    <recordSetType typeId="ee0d7035-15e6-4c63-9ad0-791c3688ea40" valueTypeId="ca2b917b-0459-4943-9e21-fbb53ebfc18e"/>
+    <recordKeyType typeId="e9298c82-a93a-4411-9d2c-bab9a7525e93" valueTypeId="01a644d7-bfec-48fa-bbda-3bcf34a13327"/>
+    <recordType typeId="5d094bab-2d5a-4e36-8af5-bc6379d6a777" valueTypeId="823320c0-46c0-4257-be2c-77c9f9121303"/>
+    <recordManagerType typeId="8dc7ecac-c436-42e2-8036-77782e473121" valueTypeId="30227d82-4e39-40d9-8697-2785f27ad99c"/>
+  </producedTypes>
+  <name>ЕАС_СоответствияОбъектовИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствия объектов информационных баз (ЕАС)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Используется для хранения информации сопоставления объектов этой информационной базы с объектами информационной базы-корреспондента обмена.</value>
+  </explanation>
+  <resources uuid="aa3a55fb-a707-4ecc-8c7b-8955e0571d65">
+    <name>УникальныйИдентификаторИсточникаСтрокой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор источника строкой</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Строковое представление типа объекта информационной базы корреспондента.
+Строка уникального идентификатора объекта ссылочного типа этой информационной базы (производная от значения измерения УникальныйИдентификаторИсточника).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="28a72c94-db14-42f5-9460-702e2f573726">
+    <name>ОбластьДанныхИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область данных источника</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Область данных этой информационной базы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f06c8488-94a5-426b-8df0-72a2b7281655">
+    <name>ОбластьДанныхПриемника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область данных приемника</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Область данных информационной базы корреспондента.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="90697519-ab45-411e-8d15-184a66bfd3cb">
+    <name>ОбъектВыгруженПоСсылке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект выгружен по ссылке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что запись регистра используется для идентификации объектов, выгруженных по ссылке. При загрузке данных такие записи удаляются по возможности.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b1337ee0-1850-4414-ab8e-31c915cd855e">
+    <name>УникальныйИдентификаторПриемника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор приемника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Строка уникального идентификатора объекта ссылочного типа информационной базы корреспондента.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3fb96044-5ab0-4abd-8da8-7994a99ab7ae">
+    <name>УникальныйИдентификаторИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор источника</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕАС_ПоказателиОтчетов</types>
+      <types>CatalogRef.ЕАС_ПоляФормШаблонов</types>
+      <types>DocumentRef.ЕАС_ОтчетыИнтеграции</types>
+      <types>CatalogRef.ЕАС_ШаблоныОтчетов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на любой объект ссылочного типа этой информационной базы.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ab7a5bb9-9919-40dd-8ad0-34f25a871ee4">
+    <name>ТипПриемника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип приемника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Строковое представление типа объекта информационной базы корреспондента.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3d6a9930-2fe6-44e7-a5bb-fabfd0fbea00">
+    <name>ТипИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип источника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Строковое представление типа объекта этой информационной базы.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="34d8d535-42cc-44d4-88fa-141f2c057071">
+    <name>УзелИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел информационной базы</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ОбменЕАСБухгалтерия</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Узел плана обмена, для которого хранится информация сопоставления объектов.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

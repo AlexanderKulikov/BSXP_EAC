@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="842a9d14-610a-499e-bfd8-e15876823e80">
+  <producedTypes>
+    <objectType typeId="7cc36ad3-096e-4384-bb74-b88336018040" valueTypeId="72af07ce-8278-4b5b-bccd-71618901710c"/>
+    <refType typeId="e7eeaacd-4275-4b7a-87e1-fdcab91d329a" valueTypeId="fb58386e-62af-4e49-abec-84db09feb987"/>
+    <selectionType typeId="c3de7a0c-1ad5-4099-8db9-1ae50020ad16" valueTypeId="7338ac9f-0ba0-4ec1-9658-59b0528b579b"/>
+    <listType typeId="f024d2e1-63aa-4670-a1e9-218cf9ccecce" valueTypeId="df6207c0-2d73-48ec-b348-3ba9f705fef5"/>
+    <managerType typeId="64c39471-bea5-4e1b-96c7-a6f5c547f51b" valueTypeId="08090e97-fe83-404c-9e39-d49c1fda40d4"/>
+  </producedTypes>
+  <name>ЕАС_ШаблоныОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны отчетов (ЕАС)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕАС_ШаблоныОтчетов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕАС_ШаблоныОтчетов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Шаблон отчета (ЕАС)</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЕАС_ШаблоныОтчетов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ЕАС_ШаблоныОтчетов.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ЕАС_ШаблоныОтчетов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЕАС_ШаблоныОтчетов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="79a9ea79-e551-4feb-86d6-426f4f1da114">
+    <name>ОбластьДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область данных</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1539496a-2770-47e3-a004-08fae9573f08">
+    <name>АлгоритмНачальногоЗаполненияШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм начального заполнения шаблона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Алгоритм заполняет таблицу значений (для заполнения данных полей). Отрабатывает до обработки алгоритмов полей.</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="87af11ef-8672-43eb-9e44-a1697f4b7af1">
+    <name>АлгоритмЗавершенияЗаполненияШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм завершения заполнения шаблона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Алгоритм позволяет корректировать таблицу значений (для заполнения данных полей шаблона). Отрабатывает после обработки алгоритмов полей.</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="82c804e3-ccf8-4599-9742-30a27dd3fe97">
+    <producedTypes>
+      <objectType typeId="599cb1f9-b2ef-4a65-94b5-c75d859059cb" valueTypeId="375ba046-bc86-406d-aceb-bef51bf09da0"/>
+      <rowType typeId="e164421d-d754-4f00-8f02-96da1eed5915" valueTypeId="52359a5e-ecf4-4d72-aaf2-b6b7db5818aa"/>
+    </producedTypes>
+    <name>ПараметрыЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры заполнения</value>
+    </synonym>
+    <attributes uuid="a432297f-d4ec-4862-8499-337ad3b93da3">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7b593db3-c8d8-40b8-a20e-744dbcbf355a">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f1777487-9db2-4875-9114-da152e83efa6">
+      <name>Список</name>
+      <synonym>
+        <key>ru</key>
+        <value>Список</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="86aa3c27-4383-428d-8d06-8a12abb580bf">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>110</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="62895ae0-088b-4fbd-8566-027fc389f9ed">
+      <name>Алгоритм</name>
+      <synonym>
+        <key>ru</key>
+        <value>Алгоритм</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <multiLine>true</multiLine>
+      <extendedEdit>true</extendedEdit>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="36bd697e-394c-4a9f-adcb-551d386c92cb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="edbe1745-fef0-4397-9bb6-b9696c231f13">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cb3d1684-4a4b-4dbf-8826-745782d8db9a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="49d81873-34b8-46a2-8a2b-9c5c8c6ae607">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3050f02d-6b6e-4db2-8f66-0432832f6510">
+    <name>ТестовыйМакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовый макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="4874d6a2-e741-4777-99ad-99334940f047">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="8e7fd31d-6cb2-4133-a216-ce91dabc1c5d">
+    <name>ЗерноводствоКормозаготовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зерноводство кормозаготовка</value>
+    </synonym>
+  </templates>
+  <templates uuid="face1510-747d-48ea-b1b5-4cdd9f492783">
+    <name>Животноводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Животноводство</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c18e65d-580e-4dee-ab00-8fd1de612c6a">
+  <name>ПрочиеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочие объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ЕАС_ОбщегоНазначенияКопируемый</content>
+  <content>CommonModule.ЕАС_ОбщегоНазначенияВызовСервераКопируемый</content>
+  <content>CommonModule.ЕАС_ОбщегоНазначенияСерверПовтИсп</content>
+  <content>CommonModule.ЕАС_ОбменВызовСервераКопируемый</content>
+  <content>CommonModule.ЕАС_ОбменСерверПовтИспКопируемый</content>
+  <content>CommonModule.ЕАС_ОбработкаШаблоновКопируемый</content>
+  <content>CommonModule.ЕАС_ОбработкаШаблоновКлиентСерверКопируемый</content>
+  <content>CommonModule.ЕАС_ОбластиДанныхКопируемый</content>
+  <content>CommonModule.ЕАС_ПараметрыЗаполненияСервер</content>
+  <content>Role.ЕАС_ОсновнаяРоль</content>
+  <content>CommonForm.ЕАС_ФормаРедактированияТекста</content>
+  <content>XDTOPackage.ЕАС_Message</content>
+  <content>HTTPService.ЕАС_Сервис</content>
+  <content>Enum.ЕАС_ВидыПрисоединенныхДанных</content>
+  <content>Enum.ЕАС_ВидыИсточниковДанных</content>
+  <content>InformationRegister.ЕАС_ПрисоединенныеДанные</content>
+  <content>InformationRegister.ЕАС_СоответствияОбъектовИнформационныхБаз</content>
+  <content>0c376489-1493-4e62-b79d-e7ea33356c58</content>
+  <content>2272672f-d4cc-4dcd-b850-a0f4fbca30f3</content>
+  <content>Enum.ЕАС_ВидыПротоколовОбмена</content>
+  <content>CommonModule.ЕАС_ПротоколированиеКопируемый</content>
+  <parentSubsystem>Subsystem.ЕдинаяАвтоматизированнаяСистема</parentSubsystem>
+</mdclass:Subsystem>

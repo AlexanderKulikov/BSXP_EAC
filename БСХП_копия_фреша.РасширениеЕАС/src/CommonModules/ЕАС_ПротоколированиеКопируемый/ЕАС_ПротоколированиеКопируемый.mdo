@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fac6e671-d5f6-407d-b02e-b21ad26cdfd7">
+  <name>ЕАС_ПротоколированиеКопируемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Протоколирование копируемый (ЕАС)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

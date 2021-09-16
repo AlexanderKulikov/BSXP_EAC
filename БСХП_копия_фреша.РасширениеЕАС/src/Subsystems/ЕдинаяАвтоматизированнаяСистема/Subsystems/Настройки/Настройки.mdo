@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1bd7a13-8a0e-41cc-a280-bf70515514b5">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки и сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ExchangePlan.ОбменЕАСБухгалтерия</content>
+  <content>InformationRegister.ЕАС_СоответствияОбъектовИнформационныхБаз</content>
+  <content>InformationRegister.ЕАС_ПротоколыОбмена</content>
+  <content>DataProcessor.ЕАС_РегистрацияИзмененийДляОбменаДанными</content>
+  <parentSubsystem>Subsystem.ЕдинаяАвтоматизированнаяСистема</parentSubsystem>
+</mdclass:Subsystem>

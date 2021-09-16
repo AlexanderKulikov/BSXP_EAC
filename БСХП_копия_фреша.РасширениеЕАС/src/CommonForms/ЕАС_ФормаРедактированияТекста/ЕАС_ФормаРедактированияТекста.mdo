@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78e43cda-ee64-4e75-a779-8cb2ae40348b">
+  <name>ЕАС_ФормаРедактированияТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма редактирования текста (ЕАС)</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

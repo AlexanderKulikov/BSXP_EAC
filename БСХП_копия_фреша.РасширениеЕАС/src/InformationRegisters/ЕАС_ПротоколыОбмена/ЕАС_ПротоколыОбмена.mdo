@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcde1a30-0559-4b47-8b27-a3435af2dd61">
+  <producedTypes>
+    <selectionType typeId="365ccfbd-8081-4fa9-a40b-c898a4a0def8" valueTypeId="d8b6d37b-021f-466b-b3ed-bee15193161a"/>
+    <listType typeId="7839a623-bcb8-4317-a44d-eceb68ef61f6" valueTypeId="c535e2d7-61db-41e6-842f-5a488928457d"/>
+    <managerType typeId="490153ce-e158-4bc8-ba42-76d7ac7b3087" valueTypeId="1973398d-d321-42b4-84dc-a4dc2e0bb613"/>
+    <recordSetType typeId="419ae3ba-91a3-403f-bb34-834fc9375bae" valueTypeId="d101d44c-ce86-42e3-b11d-3c6b086538b7"/>
+    <recordKeyType typeId="e95c8f06-4163-489a-a98e-c41e0fdb9282" valueTypeId="ef71c970-6669-423e-b3c7-4dbd80932f3b"/>
+    <recordType typeId="1a692b54-b8ec-41bc-b0c8-984dbd0fcbf1" valueTypeId="ebe69e90-4cfc-499a-af8a-4fc40e85ab98"/>
+    <recordManagerType typeId="f7015c27-ecc8-4ae5-b944-fe4d775eaa41" valueTypeId="eb523115-3f2e-4a42-94f1-b5f043dc6f30"/>
+  </producedTypes>
+  <name>ЕАС_ПротоколыОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Протоколы обмена (ЕАС)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ЕАС_ПротоколыОбмена.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Протокол обмена ЕАОС</value>
+  </recordPresentation>
+  <resources uuid="c9c15977-0e38-4703-9bff-b1edff21e48c">
+    <name>КоличествоОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ошибок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>БЛ=Нет; БИ=Да</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>БЛ=Нет; БИ=Да</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7edfa285-ffe6-446e-a9a5-906ccc413ccb">
+    <name>Протокол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Протокол</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3a5b3717-6095-4d32-8d28-e43d34b7718c">
+    <name>ВремяОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="5e340c52-3e45-4fe3-bdf7-0da30abb882f">
+    <name>Длительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="9047cf41-734e-4b60-b8f3-e860eaf7ed51">
+    <name>ВидПротокола</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид протокола</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЕАС_ВидыПротоколовОбмена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3bfbd313-2cee-42aa-96a6-58959e84d74b">
+    <name>ОбластьДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область данных</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f0b4996d-3d13-4fb4-a255-67fe5db120bc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

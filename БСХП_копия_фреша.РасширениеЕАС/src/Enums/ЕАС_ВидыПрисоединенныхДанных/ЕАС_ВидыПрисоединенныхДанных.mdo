@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6eb384f-fe82-4bfb-ae1a-c5989a03e85a">
+  <producedTypes>
+    <refType typeId="bf3fecd1-9fdf-4a9f-a81d-e49e287bec2a" valueTypeId="24213ed5-c6c5-4570-bc83-c4c45e346224"/>
+    <listType typeId="48a3e263-ccc5-4cf7-845b-d30cd3e1a281" valueTypeId="b1ac772a-dc4b-4972-b223-7ea0198560b2"/>
+    <managerType typeId="a5ba17f0-6440-49ef-a7a3-22b41f3ecbbb" valueTypeId="319e71f6-9343-4d08-895e-7886c6ecf808"/>
+  </producedTypes>
+  <name>ЕАС_ВидыПрисоединенныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды присоединенных данных (ЕАС)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1b924876-f202-4064-a696-355bd10aeb6d">
+    <name>ТабличныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличный документ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

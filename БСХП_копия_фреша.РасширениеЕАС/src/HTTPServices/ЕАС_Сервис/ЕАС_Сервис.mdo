@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9de344f4-15ef-4c51-a430-8c1853e8d1a8">
+  <name>ЕАС_Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕАС сервис</value>
+  </synonym>
+  <rootURL>pfi</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="ad8be99c-2238-447a-a583-0fe2c6c16d4c">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <template>/version/</template>
+    <methods uuid="c1f87927-fb97-44e6-aac2-44c0ea5d4059">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <handler>ВерсияРасширения</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="7ae03ae7-2419-4b82-b1f9-264d78636dee">
+    <name>Изменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения</value>
+    </synonym>
+    <template>/changes/</template>
+    <methods uuid="6e7133da-9eab-483d-86a1-723a5d28b429">
+      <name>СинхронизироватьДанные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синхронизировать данные</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПолучитьОтправитьИзменения</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

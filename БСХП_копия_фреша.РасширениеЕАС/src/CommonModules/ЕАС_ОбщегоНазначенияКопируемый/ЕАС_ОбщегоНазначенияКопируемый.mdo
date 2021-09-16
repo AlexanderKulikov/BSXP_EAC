@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53d387e7-6192-462c-8cb8-b86a5b922bc1">
+  <name>ЕАС_ОбщегоНазначенияКопируемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения копируемый (ЕАС)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

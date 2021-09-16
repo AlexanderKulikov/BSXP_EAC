@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba3f9b88-0c54-4179-9785-74281295bafc">
+  <producedTypes>
+    <selectionType typeId="1433107d-b456-4f8f-9315-fe96b7c24b68" valueTypeId="195b4c50-d25f-475f-8228-a76f3c87710a"/>
+    <listType typeId="097daad8-65a2-46a2-97d5-bbd4864bfa5c" valueTypeId="b8b1cddb-5156-4058-aa07-a84034b68985"/>
+    <managerType typeId="cd3af9f1-2ef7-4027-a02b-f2e99e2805af" valueTypeId="04eb9957-084a-4e32-9dc7-d881ff42ada7"/>
+    <recordSetType typeId="91ab1671-7252-40ab-a926-06fc790c059c" valueTypeId="f4122692-f7a8-4486-983b-13994cfd96df"/>
+    <recordKeyType typeId="1fd3e92e-fd26-48d2-811e-645d2905f845" valueTypeId="5f14a673-3082-46f6-ac06-fbcac8d0644a"/>
+    <recordType typeId="f45e9340-13a6-4b4b-b17b-7d765a054bf6" valueTypeId="5d86d912-31ca-484e-b0b3-caf3b9dd29b3"/>
+    <recordManagerType typeId="25dfb8ef-e6f6-4b4a-a127-a515f7b9cd0d" valueTypeId="eae87a70-8680-4d6d-abda-2a692dfc6638"/>
+  </producedTypes>
+  <name>ЕАС_ПрисоединенныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присоединенные данные (ЕАС)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="09c2698e-5952-4ae7-80b7-5eaf544a9b56">
+    <name>ХранилищеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище данных</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d50aad9b-9f26-423f-a282-4005a018281b">
+    <name>ВладелецДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец данных</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЕАС_ОтчетыИнтеграции</types>
+      <types>CatalogRef.ЕАС_ШаблоныОтчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8e93d505-1038-42b0-943f-eb916c05b0d9">
+    <name>ВидДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид данных</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЕАС_ВидыПрисоединенныхДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
