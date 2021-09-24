@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Соответствия объектов информационных баз (ЕАС)</value>
   </synonym>
+  <useStandardCommands>true</useStandardCommands>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
