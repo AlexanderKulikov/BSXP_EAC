@@ -149,7 +149,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="3bfbd313-2cee-42aa-96a6-58959e84d74b">
+  <dimensions uuid="c7818c67-090e-46d2-b1fa-22a119c79512">
     <name>ОбластьДанных</name>
     <synonym>
       <key>ru</key>
@@ -158,9 +158,25 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>7</precision>
+        <precision>10</precision>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="22aa7883-391e-4990-bc0c-d5d534bf58ee">
+    <name>УзелОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел обмена</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.ОбменЕАСБухгалтерия</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
