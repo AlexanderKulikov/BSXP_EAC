@@ -41,4 +41,21 @@
       <handler>ПолучитьОтправитьИзменения</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="8492e805-d36e-4419-874d-0cbd5acbcf42">
+    <name>Узел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел</value>
+    </synonym>
+    <template>/node/</template>
+    <methods uuid="1cb3c0b6-8c3b-4370-ac0b-99e8635e0636">
+      <name>СинхронизироватьПараметрыУзла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синхронизировать параметры узла</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>УзелСинхронизироватьПараметрыУзла</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>
