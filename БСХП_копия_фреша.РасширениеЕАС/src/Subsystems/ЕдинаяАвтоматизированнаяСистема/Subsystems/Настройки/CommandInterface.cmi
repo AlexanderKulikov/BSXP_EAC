@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsPlacement>
+    <placementFragments>
+      <group>ActionsPanelTools</group>
+      <commands>InformationRegister.ЕАС_СоответствияОбъектовИнформационныхБаз.StandardCommand.Create</commands>
+    </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.ЕАС_СоответствияОбъектовИнформационныхБаз.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>InformationRegister.ЕАС_СоответствияОбъектовИнформационныхБаз.StandardCommand.Create</commands>
+      <commands>DataProcessor.ЕАС_РегистрацияИзмененийДляОбменаДанными.StandardCommand.Open</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>ExchangePlan.ОбменЕАСБухгалтерия.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ЕАС_ПротоколыОбмена.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>InformationRegister.ЕАС_СоответствияОбъектовИнформационныхБаз.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>
