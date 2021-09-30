@@ -58,6 +58,7 @@
   <commonModules>CommonModule.ЕАС_ОбластиДанныхКопируемый</commonModules>
   <commonModules>CommonModule.ЕАС_ПараметрыЗаполненияСервер</commonModules>
   <commonModules>CommonModule.ЕАС_ПротоколированиеКопируемый</commonModules>
+  <commonModules>CommonModule.ЕАС_ЗаполнениеОтчетовКопируемый</commonModules>
   <commonModules>CommonModule.ЕАС_ЗаполнениеОтчетов</commonModules>
   <commonAttributes>CommonAttribute.ОбластьДанныхВспомогательныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.ОбластьДанныхОсновныеДанные</commonAttributes>
