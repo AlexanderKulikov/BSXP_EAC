@@ -48,7 +48,7 @@
       <value>Узел</value>
     </synonym>
     <template>/node/</template>
-    <methods uuid="1cb3c0b6-8c3b-4370-ac0b-99e8635e0636">
+    <methods uuid="90ffb189-9b66-4185-890a-76ac4c34c799">
       <name>СинхронизироватьПараметрыУзла</name>
       <synonym>
         <key>ru</key>

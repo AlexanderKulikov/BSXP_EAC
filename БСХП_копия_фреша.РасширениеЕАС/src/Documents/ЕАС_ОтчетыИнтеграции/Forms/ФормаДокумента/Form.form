@@ -2321,23 +2321,6 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
-  <formCommands>
-    <name>ОчиститьПараметры</name>
-    <title>
-      <key>ru</key>
-      <value>Очистить параметры</value>
-    </title>
-    <id>4</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ОчиститьПараметры</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>

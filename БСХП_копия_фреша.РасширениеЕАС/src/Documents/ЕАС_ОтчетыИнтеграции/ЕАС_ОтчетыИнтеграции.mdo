@@ -10,7 +10,7 @@
   <name>ЕАС_ОтчетыИнтеграции</name>
   <synonym>
     <key>ru</key>
-    <value>Отчеты интеграции (ЕАОС)</value>
+    <value>Отчеты интеграции (ЕАС)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ЕАС_ОтчетыИнтеграции.StandardAttribute.Number</inputByString>
